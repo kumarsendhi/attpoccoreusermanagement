@@ -10331,10 +10331,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Kumar\\ATT\\user management\\pg\\ASPNETCOREBASIC\\OdeToFood\\OdeToFood\\OdeToFood.csproj",
+      "projectUniqueName": "C:\\Kumar\\ATT\\user management\\login\\attpoccoreusermanagement\\OdeToFood\\OdeToFood\\OdeToFood.csproj",
       "projectName": "OdeToFood",
-      "projectPath": "C:\\Kumar\\ATT\\user management\\pg\\ASPNETCOREBASIC\\OdeToFood\\OdeToFood\\OdeToFood.csproj",
-      "outputPath": "C:\\Kumar\\ATT\\user management\\pg\\ASPNETCOREBASIC\\OdeToFood\\OdeToFood\\obj\\",
+      "projectPath": "C:\\Kumar\\ATT\\user management\\login\\attpoccoreusermanagement\\OdeToFood\\OdeToFood\\OdeToFood.csproj",
+      "outputPath": "C:\\Kumar\\ATT\\user management\\login\\attpoccoreusermanagement\\OdeToFood\\OdeToFood\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
