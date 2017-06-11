@@ -85,5 +85,29 @@ namespace OdeToFood.Controllers
             return View(model);
         }
 
+        [HttpGet]
+        public IActionResult ChangePassword()
+        {
+            return View();
+        }
+
+        [HttpPost, ValidateAntiForgeryToken]
+        public async Task<IActionResult> ChangePassword(ChangePasswordViewModel model)
+        {
+            
+            if (ModelState.IsValid)
+            {
+                User currentUser = await _userManager.FindByNameAsync(User.Identity.Name);
+                var changePasswordResult = await _userManager.ChangePasswordAsync(currentUser, model.Password, model.NewPassword);
+                if (changePasswordResult.Succeeded)
+                {
+                    return RedirectToAction("Index", "Home");
+                }
+            }
+            
+            ModelState.AddModelError("", "Could not login");
+            return View(model);
+        }
+
     }
 }
