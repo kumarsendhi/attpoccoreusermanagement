@@ -1,0 +1,42 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+
+@model OdeToFood.ViewModels.HomePageViewModel
+
+@{
+    ViewBag.Title = "Home";
+    
+}
+
+<h1>Welcome!</h1>
+
+@foreach(var restaurant in Model.Restaurants)
+{
+    @Html.Partial("_Summary", restaurant);
+
+}
+
+@*<table>
+    @foreach (var restaurant in Model.Restaurants)
+    {
+        <tr>
+            
+            <td>@restaurant.Name</td>
+            <td>
+                @*<a href="/home/details/@restaurant.Id">Details</a>*@
+                @*@Html.ActionLink("View", "Details", new { id = restaurant.Id })*@
+            @*   <a asp-action="Details" asp-route-id="@restaurant.Id">Detail</a>
+                    <a asp-action="Edit" asp-route-id="@restaurant.Id">Edit</a>
+                </td>
+            </tr>
+        }
+    </table>*@
+
+    <a asp-aspcontroller="Home" asp-action="Create">Create</a>
+
+    @section footer{
+    <h3>@Model.CurrentMessage</h3>
+
+    }

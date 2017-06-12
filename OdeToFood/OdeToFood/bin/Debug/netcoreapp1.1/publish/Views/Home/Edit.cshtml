@@ -1,0 +1,44 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+@model OdeToFood.Models.Restaurants
+
+@{
+    ViewBag.Title = $"Edit {Model.Name}";
+}
+
+
+
+<div>
+    <h1>Editing: @Model.Name</h1>
+
+    <div>
+
+        <form method="post" asp-antiforgery="true">
+            <div>
+                @* @Html.LabelFor(m => m.Name)*@
+                <label asp-for="Name"></label>
+                @* @Html.EditorFor(m => m.Name)*@
+                <input asp-for="Name" />
+                <span asp-validation-for="Name"></span>
+                @*  @Html.ValidationMessageFor(m => m.Name)*@
+            </div>
+            <div>
+                @*@Html.LabelFor(m => m.Cuisine)
+    @Html.DropDownListFor(m => m.Cuisine, Html.GetEnumSelectList(typeof(CuisineType)))
+    @Html.ValidationMessageFor(m => m.Cuisine)*@
+                <label asp-for="Cuisine"></label>
+                <select asp-for="Cuisine" asp-items="@Html.GetEnumSelectList(typeof(CuisineType))"></select>
+                <span asp-validation-for="Cuisine"></span>
+            </div>
+            <div>
+                <input type="submit" value="Save!" />
+            </div>
+
+        </form>
+    </div>
+</div>

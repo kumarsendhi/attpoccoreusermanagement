@@ -1,27 +1,36 @@
-C:\Kumar\ATT\user management\core\OdeToFood\OdeToFood\bin\Debug\netcoreapp1.1\OdeToFood.deps.json
-C:\Kumar\ATT\user management\core\OdeToFood\OdeToFood\bin\Debug\netcoreapp1.1\OdeToFood.runtimeconfig.json
-C:\Kumar\ATT\user management\core\OdeToFood\OdeToFood\bin\Debug\netcoreapp1.1\OdeToFood.runtimeconfig.dev.json
-C:\Kumar\ATT\user management\core\OdeToFood\OdeToFood\bin\Debug\netcoreapp1.1\OdeToFood.dll
-C:\Kumar\ATT\user management\core\OdeToFood\OdeToFood\bin\Debug\netcoreapp1.1\OdeToFood.pdb
-C:\Kumar\ATT\user management\core\OdeToFood\OdeToFood\obj\Debug\netcoreapp1.1\OdeToFood.csprojResolveAssemblyReference.cache
-C:\Kumar\ATT\user management\core\OdeToFood\OdeToFood\obj\Debug\netcoreapp1.1\OdeToFood.AssemblyInfo.cs
-C:\Kumar\ATT\user management\core\OdeToFood\OdeToFood\obj\Debug\netcoreapp1.1\OdeToFood.dll
-C:\Kumar\ATT\user management\core\OdeToFood\OdeToFood\obj\Debug\netcoreapp1.1\OdeToFood.pdb
-C:\Kumar\ATT\user management\pg\ASPNETCOREBASIC\OdeToFood\OdeToFood\bin\Debug\netcoreapp1.1\OdeToFood.deps.json
-C:\Kumar\ATT\user management\pg\ASPNETCOREBASIC\OdeToFood\OdeToFood\bin\Debug\netcoreapp1.1\OdeToFood.runtimeconfig.json
-C:\Kumar\ATT\user management\pg\ASPNETCOREBASIC\OdeToFood\OdeToFood\bin\Debug\netcoreapp1.1\OdeToFood.runtimeconfig.dev.json
-C:\Kumar\ATT\user management\pg\ASPNETCOREBASIC\OdeToFood\OdeToFood\bin\Debug\netcoreapp1.1\OdeToFood.dll
-C:\Kumar\ATT\user management\pg\ASPNETCOREBASIC\OdeToFood\OdeToFood\bin\Debug\netcoreapp1.1\OdeToFood.pdb
-C:\Kumar\ATT\user management\pg\ASPNETCOREBASIC\OdeToFood\OdeToFood\obj\Debug\netcoreapp1.1\OdeToFood.csprojResolveAssemblyReference.cache
-C:\Kumar\ATT\user management\pg\ASPNETCOREBASIC\OdeToFood\OdeToFood\obj\Debug\netcoreapp1.1\OdeToFood.AssemblyInfo.cs
-C:\Kumar\ATT\user management\pg\ASPNETCOREBASIC\OdeToFood\OdeToFood\obj\Debug\netcoreapp1.1\OdeToFood.dll
-C:\Kumar\ATT\user management\pg\ASPNETCOREBASIC\OdeToFood\OdeToFood\obj\Debug\netcoreapp1.1\OdeToFood.pdb
-C:\Kumar\ATT\user management\login\attpoccoreusermanagement\OdeToFood\OdeToFood\bin\Debug\netcoreapp1.1\OdeToFood.deps.json
-C:\Kumar\ATT\user management\login\attpoccoreusermanagement\OdeToFood\OdeToFood\bin\Debug\netcoreapp1.1\OdeToFood.runtimeconfig.json
-C:\Kumar\ATT\user management\login\attpoccoreusermanagement\OdeToFood\OdeToFood\bin\Debug\netcoreapp1.1\OdeToFood.runtimeconfig.dev.json
-C:\Kumar\ATT\user management\login\attpoccoreusermanagement\OdeToFood\OdeToFood\bin\Debug\netcoreapp1.1\OdeToFood.dll
-C:\Kumar\ATT\user management\login\attpoccoreusermanagement\OdeToFood\OdeToFood\bin\Debug\netcoreapp1.1\OdeToFood.pdb
-C:\Kumar\ATT\user management\login\attpoccoreusermanagement\OdeToFood\OdeToFood\obj\Debug\netcoreapp1.1\OdeToFood.csprojResolveAssemblyReference.cache
-C:\Kumar\ATT\user management\login\attpoccoreusermanagement\OdeToFood\OdeToFood\obj\Debug\netcoreapp1.1\OdeToFood.AssemblyInfo.cs
-C:\Kumar\ATT\user management\login\attpoccoreusermanagement\OdeToFood\OdeToFood\obj\Debug\netcoreapp1.1\OdeToFood.dll
-C:\Kumar\ATT\user management\login\attpoccoreusermanagement\OdeToFood\OdeToFood\obj\Debug\netcoreapp1.1\OdeToFood.pdb
+C:/Kumar/ATT/user management/core/OdeToFood/OdeToFood/bin/Debug/netcoreapp1.1/OdeToFood.deps.json
+C:/Kumar/ATT/user management/core/OdeToFood/OdeToFood/bin/Debug/netcoreapp1.1/OdeToFood.runtimeconfig.json
+C:/Kumar/ATT/user management/core/OdeToFood/OdeToFood/bin/Debug/netcoreapp1.1/OdeToFood.runtimeconfig.dev.json
+C:/Kumar/ATT/user management/core/OdeToFood/OdeToFood/bin/Debug/netcoreapp1.1/OdeToFood.dll
+C:/Kumar/ATT/user management/core/OdeToFood/OdeToFood/bin/Debug/netcoreapp1.1/OdeToFood.pdb
+C:/Kumar/ATT/user management/core/OdeToFood/OdeToFood/obj/Debug/netcoreapp1.1/OdeToFood.csprojResolveAssemblyReference.cache
+C:/Kumar/ATT/user management/core/OdeToFood/OdeToFood/obj/Debug/netcoreapp1.1/OdeToFood.AssemblyInfo.cs
+C:/Kumar/ATT/user management/core/OdeToFood/OdeToFood/obj/Debug/netcoreapp1.1/OdeToFood.dll
+C:/Kumar/ATT/user management/core/OdeToFood/OdeToFood/obj/Debug/netcoreapp1.1/OdeToFood.pdb
+C:/Kumar/ATT/user management/pg/ASPNETCOREBASIC/OdeToFood/OdeToFood/bin/Debug/netcoreapp1.1/OdeToFood.deps.json
+C:/Kumar/ATT/user management/pg/ASPNETCOREBASIC/OdeToFood/OdeToFood/bin/Debug/netcoreapp1.1/OdeToFood.runtimeconfig.json
+C:/Kumar/ATT/user management/pg/ASPNETCOREBASIC/OdeToFood/OdeToFood/bin/Debug/netcoreapp1.1/OdeToFood.runtimeconfig.dev.json
+C:/Kumar/ATT/user management/pg/ASPNETCOREBASIC/OdeToFood/OdeToFood/bin/Debug/netcoreapp1.1/OdeToFood.dll
+C:/Kumar/ATT/user management/pg/ASPNETCOREBASIC/OdeToFood/OdeToFood/bin/Debug/netcoreapp1.1/OdeToFood.pdb
+C:/Kumar/ATT/user management/pg/ASPNETCOREBASIC/OdeToFood/OdeToFood/obj/Debug/netcoreapp1.1/OdeToFood.csprojResolveAssemblyReference.cache
+C:/Kumar/ATT/user management/pg/ASPNETCOREBASIC/OdeToFood/OdeToFood/obj/Debug/netcoreapp1.1/OdeToFood.AssemblyInfo.cs
+C:/Kumar/ATT/user management/pg/ASPNETCOREBASIC/OdeToFood/OdeToFood/obj/Debug/netcoreapp1.1/OdeToFood.dll
+C:/Kumar/ATT/user management/pg/ASPNETCOREBASIC/OdeToFood/OdeToFood/obj/Debug/netcoreapp1.1/OdeToFood.pdb
+C:/Kumar/ATT/user management/login/attpoccoreusermanagement/OdeToFood/OdeToFood/bin/Debug/netcoreapp1.1/OdeToFood.deps.json
+C:/Kumar/ATT/user management/login/attpoccoreusermanagement/OdeToFood/OdeToFood/bin/Debug/netcoreapp1.1/OdeToFood.runtimeconfig.json
+C:/Kumar/ATT/user management/login/attpoccoreusermanagement/OdeToFood/OdeToFood/bin/Debug/netcoreapp1.1/OdeToFood.runtimeconfig.dev.json
+C:/Kumar/ATT/user management/login/attpoccoreusermanagement/OdeToFood/OdeToFood/bin/Debug/netcoreapp1.1/OdeToFood.dll
+C:/Kumar/ATT/user management/login/attpoccoreusermanagement/OdeToFood/OdeToFood/bin/Debug/netcoreapp1.1/OdeToFood.pdb
+C:/Kumar/ATT/user management/login/attpoccoreusermanagement/OdeToFood/OdeToFood/obj/Debug/netcoreapp1.1/OdeToFood.csprojResolveAssemblyReference.cache
+C:/Kumar/ATT/user management/login/attpoccoreusermanagement/OdeToFood/OdeToFood/obj/Debug/netcoreapp1.1/OdeToFood.AssemblyInfo.cs
+C:/Kumar/ATT/user management/login/attpoccoreusermanagement/OdeToFood/OdeToFood/obj/Debug/netcoreapp1.1/OdeToFood.dll
+C:/Kumar/ATT/user management/login/attpoccoreusermanagement/OdeToFood/OdeToFood/obj/Debug/netcoreapp1.1/OdeToFood.pdb
+/home/seyonadmin/usermanagement/attpoccoreusermanagement/OdeToFood/OdeToFood/bin/Debug/netcoreapp1.1/OdeToFood.deps.json
+/home/seyonadmin/usermanagement/attpoccoreusermanagement/OdeToFood/OdeToFood/bin/Debug/netcoreapp1.1/OdeToFood.runtimeconfig.json
+/home/seyonadmin/usermanagement/attpoccoreusermanagement/OdeToFood/OdeToFood/bin/Debug/netcoreapp1.1/OdeToFood.runtimeconfig.dev.json
+/home/seyonadmin/usermanagement/attpoccoreusermanagement/OdeToFood/OdeToFood/bin/Debug/netcoreapp1.1/OdeToFood.dll
+/home/seyonadmin/usermanagement/attpoccoreusermanagement/OdeToFood/OdeToFood/bin/Debug/netcoreapp1.1/OdeToFood.pdb
+/home/seyonadmin/usermanagement/attpoccoreusermanagement/OdeToFood/OdeToFood/obj/Debug/netcoreapp1.1/OdeToFood.csprojResolveAssemblyReference.cache
+/home/seyonadmin/usermanagement/attpoccoreusermanagement/OdeToFood/OdeToFood/obj/Debug/netcoreapp1.1/OdeToFood.AssemblyInfo.cs
+/home/seyonadmin/usermanagement/attpoccoreusermanagement/OdeToFood/OdeToFood/obj/Debug/netcoreapp1.1/OdeToFood.dll
+/home/seyonadmin/usermanagement/attpoccoreusermanagement/OdeToFood/OdeToFood/obj/Debug/netcoreapp1.1/OdeToFood.pdb
