@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using OdeToFood.Models;
+using OdeToFood.Services;
 using OdeToFood.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -13,11 +14,13 @@ namespace OdeToFood.Controllers
     {
         private UserManager<User> _userManager;
         private SignInManager<User> _signInManager;
+        private IEmailService _emailService;
 
-        public AccountController(UserManager<User> userManager, SignInManager<User> signInManager)
+        public AccountController(UserManager<User> userManager, SignInManager<User> signInManager, IEmailService emailService)
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            _emailService = emailService;
         }
 
         [HttpGet]
@@ -98,6 +101,7 @@ namespace OdeToFood.Controllers
             if (ModelState.IsValid)
             {
                 User currentUser = await _userManager.FindByNameAsync(User.Identity.Name);
+                
                 var changePasswordResult = await _userManager.ChangePasswordAsync(currentUser, model.Password, model.NewPassword);
                 if (changePasswordResult.Succeeded)
                 {
@@ -108,6 +112,68 @@ namespace OdeToFood.Controllers
             ModelState.AddModelError("", "Could not login");
             return View(model);
         }
+
+        [HttpGet]
+        public IActionResult ForgotPassword()
+        {
+            return View();
+        }
+
+        [HttpPost, ValidateAntiForgeryToken]
+        public async Task<IActionResult> ForgotPassword(ForgotPasswordViewModel model)
+        {
+
+            if (ModelState.IsValid)
+            {
+                User currentUser = await _userManager.FindByEmailAsync(model.Email);
+
+                if (currentUser != null &&  _userManager.IsEmailConfirmedAsync(currentUser).Result)
+                {
+                    string token = await _userManager.GeneratePasswordResetTokenAsync(currentUser);
+                    string callbackUrl = Url.Action("ResetPassword", "Account",new { token = token}, protocol: HttpContext.Request.Scheme);
+
+                    var response = await this._emailService.SendAsync(
+                         to: currentUser.Email,
+                         subject: "Reset password",
+                         body: $"<strong>Reset your password by clicking this link <br/> {callbackUrl} </strong>");
+                    if (response.StatusCode == System.Net.HttpStatusCode.Accepted)
+                    {
+                        return RedirectToAction("Index", "Home");
+                    }
+
+                }
+            }
+            ModelState.AddModelError("", "Could not send email");
+            return View(model);
+        }
+
+        [HttpGet]
+        public IActionResult ResetPassword(string token)
+        {
+            return View();
+        }
+
+        [HttpPost, ValidateAntiForgeryToken]
+        public IActionResult ResetPassword
+                (ResetPasswordViewModel obj)
+        {
+            User user = _userManager.
+                         FindByNameAsync(obj.UserName).Result;
+
+            IdentityResult result = _userManager.ResetPasswordAsync
+                      (user, obj.Token, obj.Password).Result;
+            if (result.Succeeded)
+            {
+                ModelState.AddModelError("", "Password reset successfull!");
+                return View(obj);
+            }
+            else
+            {
+                ModelState.AddModelError("", "Password reset not successfull!");
+                return View(obj);
+            }
+        }
+
 
     }
 }

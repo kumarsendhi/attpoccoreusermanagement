@@ -1,7 +1,7 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/home/seyonadmin/.nuget/packages"
+      "C:\\Users\\krishk6\\.nuget\\packages"
     ]
   }
 }
